@@ -1,5 +1,5 @@
 package ASSIGN2.task_1
-
+//Exercise 4: Refer to the Listings 11.2, 11.3, 11.4, 11.5. Redo all these examples using wildcard.
 object Ex_4 {
 
   //11.02

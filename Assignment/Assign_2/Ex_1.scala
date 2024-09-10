@@ -1,5 +1,5 @@
 package ASSIGN2.task_1
-
+//Exercise 1: Write Scala program that implements the function y = a * x ^ 2 + bx + c , where a = 3 , b = 5 and c = 7 (this is similar to what has been done in Listing 10.4). Create a list of integers in the range - 3 <= x <= 3 and use the defined function to map its elements to another list. Print the mapped list and verify the results. (Try to use wildcard wherever possible.)
 import scala.util.Random
 
 object Ex_1 {
@@ -49,7 +49,7 @@ object Ex_1 {
 
     def display(): Unit = {
       val rootValue = sumOFroots(ax2, bx, valueOfC)
-      println(s"ax^2 = $ax2, bx = $bx, c = $valueOfC value of x = $x total = $rootValue")
+      println(s"ax^2 = ${ax2.last}, bx = ${bx.last}, c = ${valueOfC.last} value of x = ${x.last} total = ${rootValue.last}")
       val GTZ = greaterThanZero(rootValue)
       println(GTZBoolean(GTZ))
       val list : List[Option[Int]] = List(ax2,bx,valueOfC,x,rootValue)
@@ -57,7 +57,7 @@ object Ex_1 {
         case Some(value) => Some(value)
         case None => None
       }
-      println(filteredList)
+      println(s"List of all values: $filteredList")
     }
 
     display()
