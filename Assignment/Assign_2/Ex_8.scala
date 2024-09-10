@@ -1,5 +1,5 @@
 package ASSIGN2.task_1
-//Exercise 1: Implicit can be used in different context. In this session we only saw how implicit is used for parameters. Explore and learn how implicit is used for type conversion.
+//Exercise 2: Write a function which has two inputs of any type and then implicitly converts these input of any type to string and print the addition of these strings.
 object Ex_8 {
 implicit def Concat(x: Int): String = x.toString
 
