@@ -52,7 +52,7 @@ Functional Scala emphasizes immutability and the use of functions as first-class
 ### **Logisim Circuit Diagram**:
 Here's a visual representation of the **Single Cycle Processor** implemented in Logisim:
 
-![Single Cycle Processor](https://github.com/SZBS03/MyTasks/tree/circuits/Assignment/single_cycle_processor_logisim/single_cycle_processor_logisim.PNG)
+![Single Cycle Processor](https://raw.githubusercontent.com/SZBS03/MyTasks/circuits/Assignment/single_cycle_processor_logisim/single_cycle_processor_logisim.PNG)
 
 ---
 
