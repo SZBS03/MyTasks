@@ -80,7 +80,7 @@ def ant_colony_optimization(points, n_ants, n_iterations, alpha, beta, evaporati
     plt.show()
 
 # Example usage
-points = np.random.rand(100, 3)  # Generate 10 random 3D points
+points = np.random.rand(5, 3)  # Generate 10 random 3D points
 ant_colony_optimization(
     points, n_ants=10, n_iterations=100, alpha=1, beta=1, evaporation_rate=0.5, Q=1
 )

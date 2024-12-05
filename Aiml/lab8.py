@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 from matplotlib import animation
 
 def fitness_function(x1, x2):
-    f1 = x1 + 2 * -x2 + 3
-    f2 = 2 * x1 + x2 - 8
+    f1 = 3*-x1 + x2 -7
+    f2 = 4*x1 -7*x2 -19
     z = f1**2 + f2**2
     return z
 
