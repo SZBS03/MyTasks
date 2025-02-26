@@ -1,3 +1,0 @@
-${CORE_ROOT}/tb/fulladder_tb.v
-${CORE_ROOT}/src/fulladder.v
-${CORE_ROOT}/src/halfadder.v
